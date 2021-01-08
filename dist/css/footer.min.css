@@ -1,0 +1,2 @@
+.footer-nav li a{color:#fff;text-decoration:none;font-weight:400}.footer-nav li a:hover{color:#007bff}.contacts p{margin:0;padding:0}@media screen and (max-width:720px){.footer{font-size:13px}.footer-nav{white-space:nowrap}}@media screen and (max-width:576px){.footer{display:grid;grid-template-columns:50% 50%}.f-menu{display:grid;grid-template-rows:30% 70%;text-align:center}.footer-nav li a{font-size:13px}}
+/*# sourceMappingURL=../maps/footer.min.css.map */
