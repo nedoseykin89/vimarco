@@ -5922,9 +5922,6 @@ h3 {
   -o-transform: scale(1.05);
   transform: scale(1.05); }
 
-.cart-link {
-  border-radius: 35px; }
-
 .more-p {
   padding: 20px;
   margin: 20px;
@@ -6081,6 +6078,11 @@ h3 {
   font-size: 48px;
   font-weight: bold; }
 
+.price {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px; }
+
 .priceWeight {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6094,7 +6096,8 @@ h3 {
     font-size: 18px; }
 
 .cart-link {
-  color: #fff; }
+  color: #fff;
+  border-radius: 84px; }
 
 .cart-link:hover {
   color: #1160f3; }
@@ -6125,6 +6128,10 @@ h3 {
 
 .menuBody {
   position: relative; }
+
+.btn-cart {
+  border: none;
+  border-radius: 35px; }
 
 @media screen and (max-width: 1124px) {
   .menu-area {

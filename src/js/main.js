@@ -1,5 +1,4 @@
 //= lib/jquery.js
-
 ///= lib/slick.js
 //= lib/slick.min.js
 
