@@ -1,4 +1,5 @@
 //= lib/jquery.js
+//= lib/lightzoom.js
 ///= lib/slick.js
 //= lib/slick.min.js
 

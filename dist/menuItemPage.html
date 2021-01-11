@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/styleforimg.css" type="text/css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -56,17 +57,18 @@
             <div class="menuBody row mx-2">
                 <img src="./img/vegan-food3.png" alt="restaurant" class="bg-img-menu-item">
                 <div class="menuBody__imgBox mx-auto">
-                    <div class="menuBody__imgBox--bigPic mb-2 px-1">
+                    <div class="menuBody__imgBox--bigPic mb-2">
+                        <a href="./img/soup.jpg" class="lightzoom"><img src="./img/largesoup.jpg" alt="" class="bigPic"></a>
                     </div>
                     <div class="menuBody__imgBox--smallPic row w-100 m-0">
-                        <div class="smallSoup smallSoup-left">
-
+                        <div class="smallSoup">
+                            <a href="./img/soup.jpg" class="lightzoom"><img src="./img/smallsoup.jpg" alt="" class="smallSoup-left food-img"></a> 
                         </div>
                         <div class="smallSoup ">
-
+                            <a href="./img/soup.jpg" class="lightzoom"><img src="./img/smallsoup.jpg" alt="" class="food-img"></a>
                         </div>
-                        <div class="smallSoup smallSoup-right">
-
+                        <div class="smallSoup">
+                            <a href="./img/soup.jpg" class="lightzoom"><img src="./img/smallsoup.jpg" alt="" class="smallSoup-right food-img"></a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +130,7 @@
         </div>
     </footer>
     <script src="js/main.min.js"></script>
-
+    <script>jQuery('.lightzoom').lightzoom({ speed: 400, viewTitle: true });</script>
 </body>
 
 </html>

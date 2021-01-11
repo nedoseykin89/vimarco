@@ -219,12 +219,11 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1vw;
 }
-.smallSoup {
-    background-image: url(../img/smallsoup.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.food-img {
     width: 100%;
+}
+.smallSoup {
+    
     height: 110px;
     padding: 0;
 }
@@ -272,14 +271,11 @@ h3 {
     color: #000;
 }
 .menuBody__imgBox--bigPic {
-    width: 480px;
-    height: 380px;
-    background-image: url(../img/largesoup.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+.bigPic {
+    width: 100%;
 }
 .bg-img-menu-item {
     position: absolute;
@@ -290,6 +286,7 @@ h3 {
 }
 .menuBody {
     position: relative;
+     
 }
 .btn-cart {
     border: none;
@@ -397,9 +394,5 @@ h3 {
         &__link {
             font-size: 12px;
         }
-    }
-    .menuBody__imgBox--bigPic {
-        width: 320px;
-        height: 260px;
     }
 }
