@@ -5911,7 +5911,6 @@ h3 {
   width: 349px;
   height: 355px;
   display: grid;
-  grid-template-rows: 63% 10% 7% 20%;
   padding: 0 15px; }
   .menu-block__text {
     font-weight: bold; }
@@ -6000,7 +5999,6 @@ h3 {
   width: 257px;
   height: 371px;
   display: grid;
-  grid-template-rows: 52% 20% 15% 13%;
   padding: 0 15px; }
   .s-menu-block__text {
     font-weight: bold; }
